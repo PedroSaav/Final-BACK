@@ -12,8 +12,13 @@
 </head>
 
 <body>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
 
-    <h1 class="container m-5">
+    <h1 class="container m-5" style="color: rgb(19, 20, 20);">
         Pagina para Subir datos
 
     </h1>
@@ -21,11 +26,11 @@
     <div class="container m-5 text-center">
         <form action="/subir" method="post" enctype="multipart/form-data">
             <div>
-                <label for="file">File Name</label>
+                <label for="file" style="background-color:black; color:aliceblue">File Name</label>
                 <input type="file" name="miArchivo" required>
             </div>
             <div class="m-5">
-                <input type="submit" value="Subir Archivo">
+                <input type="submit" value="Subir Archivo" style="background-color:black; color:aliceblue">
             </div>
         </form>
     </div>
