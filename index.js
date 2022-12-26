@@ -7,7 +7,7 @@ const productos = require('./controllers/productoController');
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-//DB conncetion
+//DB connection
 conectarDB();
 app.use(cors());
 
